@@ -1,6 +1,6 @@
-import { TLocation } from "../types";
+import { TLocationInfo } from "../types";
 
-export const NigeriaLocations: TLocation[] = [
+export const NigeriaLocations: TLocationInfo[] = [
   {
     state: {
       name: "Abia",
