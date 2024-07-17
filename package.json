@@ -9,9 +9,15 @@
   },
   "keywords": [
     "Nigeria",
-    "State",
-    "LGAs"
+    "States",
+    "Capital",
+    "LGAs",
+    "Universities",
+    "Airports",
+    "Land Mass",
+    "Geo Political Zone"
   ],
+  "repository": "https://github.com/devdesiignn/use-nigeria-location/",
   "author": "DEVDESIIGNN",
   "license": "ISC",
   "description": "A custom hook that provides you the list of all States, LGAs and Cities in Nigeria",
