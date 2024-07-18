@@ -45,7 +45,7 @@ export function useStateInfo(stateID: string): TStateInfo | string {
 
 /**
  * @function useAllStates
- * Fetch all information from single state.
+ * Fetch all states.
  *
  * @returns {TState[]} - An array of all states data.
  */
@@ -146,10 +146,10 @@ export function useStateAirports(stateID: string): TAirport[] | string {
 
 /**
  * @function useStateGeoPoli
- * Fetches Geo Politocal Zone of state.
+ * Fetches Geo Political Zone of state.
  *
  * @param {string} stateID - The location ID.
- * @returns {string} Geo Politocal Zone of a single state | Error Message.
+ * @returns {string} Geo Political Zone of a single state | Error Message.
  */
 export function useStateGeoPoli(stateID: string): string {
   return findSingleState(stateID.toLowerCase())?.geopolitical_zone ?? "Not Found!, Check the ID Passed.";
